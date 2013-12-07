@@ -27,109 +27,115 @@
 
         <br>
 
-        <div class="window-outer">
-          <form>
+        <div>
+          <form method="POST">
 
-            <table border="0">
-              <tr>
-                <td style="width: 10px;"></td>
+            <div class="window-outer">
+              <table>
+                <tr>
+                  <td style="width: 10px;"></td>
 
-                <td>
-                  <table>
-                    <tr>
-                      <td><br><input id="0" onchange="conversion(id)"></td>
-                      <td><br>m (meters)</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="1" onchange="conversion(id)"></td>
-                      <td><br>miles</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="2" onchange="conversion(id)"></td>
-                      <td><br>AU (Astronomical Unit)</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="3" onchange="conversion(id)"></td>
-                      <td><br>ly (light-years)</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="4" onchange="conversion(id)"></td>
-                      <td><br>pc (parsec)</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="13" onchange="as_to_AU()"></td>
-                      <td><br> " (arcsec)</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>for Parallax Angle</td>
-                    </tr>
-                  </table>
-                </td>
+                  <td>
+                    <table>
+                      <tr>
+                        <td><br><input id="0" onchange="conversion(id)"></td>
+                        <td><br>m (meters)</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="1" onchange="conversion(id)"></td>
+                        <td><br>miles</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="2" onchange="conversion(id)"></td>
+                        <td><br>AU (Astronomical Unit)</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="3" onchange="conversion(id)"></td>
+                        <td><br>ly (light-years)</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="4" onchange="conversion(id)"></td>
+                        <td><br>pc (parsec)</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="13" onchange="as_to_AU()"></td>
+                        <td><br> " (arcsec)</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>for Parallax Angle</td>
+                      </tr>
+                    </table>
+                  </td>
 
-                <td style="width: 15px;"></td>
+                  <td style="width: 15px;"></td>
 
-                <td>
-                  <table style="margin-bottom: 10px;" border="0">
-                    <tr>
-                      <td><br><input id="5"  onchange="conversion(id)"></td>
-                      <td><br>Moon Radius</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="6"  onchange="conversion(id)"></td>
-                      <td><br>Earth Radius</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="7"  onchange="conversion(id)"></td>
-                      <td><br>Solar Radius</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="8"  onchange="conversion(id)"></td>
-                      <td><br>Solar System</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="9"  onchange="conversion(id)"></td>
-                      <td><br>Milky Way Galaxy</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="10" onchange="conversion(id)"></td>
-                      <td><br>Local Group</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="11" onchange="conversion(id)"></td>
-                      <td><br>Local Supercluster</td>
-                    </tr>
-                    <tr>
-                      <td><br><input id="12" onchange="conversion(id)"></td>
-                      <td><br>Observable Universe</td>
-                    </tr>
-                  </table>
-                </td>
+                  <td>
+                    <table style="margin-bottom: 10px;">
+                      <tr>
+                        <td><br><input id="5"  onchange="conversion(id)"></td>
+                        <td><br>Moon Radius</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="6"  onchange="conversion(id)"></td>
+                        <td><br>Earth Radius</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="7"  onchange="conversion(id)"></td>
+                        <td><br>Solar Radius</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="8"  onchange="conversion(id)"></td>
+                        <td><br>Solar System</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="9"  onchange="conversion(id)"></td>
+                        <td><br>Milky Way Galaxy</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="10" onchange="conversion(id)"></td>
+                        <td><br>Local Group</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="11" onchange="conversion(id)"></td>
+                        <td><br>Local Supercluster</td>
+                      </tr>
+                      <tr>
+                        <td><br><input id="12" onchange="conversion(id)"></td>
+                        <td><br>Observable Universe</td>
+                      </tr>
+                    </table>
+                  </td>
 
-                <td style="width: 10px;"></td>
-              </tr>
-            </table>
+                  <td style="width: 10px;"></td>
+                </tr>
+              </table>
+            </div>
 
+            <br>
+
+            <div class="window-outer">
+              <table style="margin-top: 6px;">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td>
+                    <input type="reset" value="Reset" class="button">
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
+
+          </form>
         </div>
 
-        <br>
-
-        <div class="window-outer">
-            <br>
-            <table>
-              <tr>
-                <td>
-                  <input type="button" value="Convert">
-                  &nbsp;
-                </td>
-                <td>
-                  &nbsp;
-                  <input type="reset" value="Reset">
-                </td>
-              </tr>
-            </table>
-          </form>
+        <div>
           <br>
+          <ul>
+            <li>Enter a positive number in the input boxes, and then press the Enter key.</li>
+            <li>To clear all input boxes, click on the Reset button.</li>
+            <li>If a zero, negative number, whitespace, or nothing (Null) is entered, a warning message will be displayed.</li>
+          </ul>      
         </div>
 
       </td>

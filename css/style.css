@@ -35,6 +35,15 @@ input {
 	text-align: right;
 }
 
+li {
+	font-weight: 400;
+}
+
+.button:hover {
+	border: 1px solid #BDCAD8;
+	background: #DFF5FB;
+}
+
 .window-outer {
 	border-radius: 10px;
 	border-width: 1px;

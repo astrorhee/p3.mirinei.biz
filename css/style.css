@@ -1,0 +1,45 @@
+body {
+	margin-top: 30px;
+	background: white repeat-x url("/images/background.jpg");
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 22px;
+	color: #08088A;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	padding: 0px;
+
+}
+
+td {
+	vertical-align: top;
+	text-align: left;
+	font-weight: 600;
+	font-size: 15px;
+	color: #0B0B61;
+	padding-left: 5px;
+}
+
+input {
+	border:1px solid #BDCAD8;
+	background-color: #EFF5FB;
+	font-weight: 600;
+	color: #0B0B61;
+	margin-top: -5px;
+	text-align: right;
+}
+
+.window-outer {
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border: 1px solid #BDCAD8;
+	background-color: white;
+}
